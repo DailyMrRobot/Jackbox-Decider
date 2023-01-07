@@ -35,8 +35,8 @@ async def Party_Packs(ctx):
 @bot.command(name="Which game from Jackbox Party Pack 9?")
 async def JBGames(ctx):
     Jackbox9 = [
-        "Fibbage 4",
-        "Nonsensory",
+        "Fibbage 4 (2-8 players)",
+        "Nonsensory (1-10 players)",
         "Quixort",
         "Junktopia",
         "Roomerang",
@@ -93,7 +93,11 @@ async def JBPP6(ctx):
 @bot.command(name="Which game from Jackbox Party Pack 5?")
 async def JBPP5(ctx):
     PartyPackFive = [
-
+       "YOU DON’T KNOW JACK: Full Stream (1-8 players)",
+       "Split the Room (3-8 Players)",
+       "Mad Verse City (3-8 players)",
+       "Patently Stupid (3-8 players)",
+       "Crab Nebula, Zeeple Dome (1-6 players)",
     ]
     response = random.choice(PartyPackFive)
     await ctx.send(response)

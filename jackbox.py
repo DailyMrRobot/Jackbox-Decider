@@ -10,7 +10,7 @@ intents.members= True
 client = commands.Bot(command_prefix="!", intents=intents)
 
 load_dotenv()
-TOKEN = os.getenv('OTg4NjcwODM2NzI4NzkxMDQw.GUlfKI.Lt_oN_ZIC1VKomqk0S_xkvQ-dcoDXR9B4lP3ug')
+TOKEN = os.getenv('OTg4NjcwODM2Ng')
 
 bot = commands.bot(command_prefix='!')
 
